@@ -1,0 +1,6 @@
+if SHIELD_XIAO3X4
+
+config ZMK_KEYBOARD_NAME
+  default "chen3x4"
+
+endif
