@@ -23,7 +23,7 @@
           , <&xiao_d 5 GPIO_ACTIVE_HIGH>
           , <&xiao_d 6 GPIO_ACTIVE_HIGH>
           ;
-    }
+    };
 
     default_transform: keymap_transform_0 {
       compatible = "zmk,matrix-transform";
@@ -38,4 +38,4 @@
           RC(2,0) RC(2,1) RC(2,2) RC(2,3)
       >;
     };
-}
+};
